@@ -1,3 +1,5 @@
+__author__ = "Hilmanda Panji Orienski"
+
 import numpy as np
 from string import ascii_uppercase
 import time
