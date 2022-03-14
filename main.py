@@ -63,11 +63,15 @@ def greedy_scp(max_length):
     print()
     print("Kota yang paling bagus untuk membangun gedung damkar:",best_result)
 
-max_length = find_average(data)
-print("Area Covered by Damkar :",max_length)
-greedy_scp(max_length)
-print()
-waktu_akhir = time.time() - waktu_awal
-print("Waktu eksekusi:",waktu_akhir)
-print()
-print("Spek laptop : AMD Ryzen 3-5300U (4 Cores, 8 Threads, 2.6GHz, up to 3.8GHz), RAM 8GB, SSD M.2 Nvme 512GB")
+def main():
+    max_length = find_average(data)
+    print("Area Covered by Damkar :",max_length)
+    greedy_scp(max_length)
+    print()
+    waktu_akhir = time.time() - waktu_awal
+    print("Waktu eksekusi:",waktu_akhir)
+    print()
+    print("Spek laptop : AMD Ryzen 3-5300U (4 Cores, 8 Threads, 2.6GHz, up to 3.8GHz), RAM 8GB, SSD M.2 Nvme 512GB")
+
+if __name__ == '__main__' :
+    main()
